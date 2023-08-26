@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+    <link rel = "stylesheet" href="style.css">
+    
+    <head>
+        <title>THE WANDERERS' LIBRARY</title>
+        <link rel="shortcut icon" type="image/png" href="u.png">
+
+        <!-- Include eel.js - note this file doesn't exist in the 'web' directory -->
+        <script type="text/javascript" src="/eel.js"></script>
+
+    </head>
+
+    <body style="background-color:#16262E;margin:25;padding:10;align-items: center;">
+        <img src="Logo.png" style="padding-left:37%"/>
+        <button class="button button2" onclick="Update()">Update</button>
+
+        <div id = "temp" style="margin-left: 5%;margin-right: 5%;"></div>
+
+
+    </body>
+        <script src="scripts.js">eel.expose(GetBooks);</script>
+</html>
